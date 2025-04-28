@@ -69,7 +69,7 @@ const Home = async () => {
       </div>
 
       {/* Busca Rápida */}
-      <div className="flex gap-3 mt-6 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
+      <div className="flex gap-3 mt-6 overflow-x-scroll [&::-webkit-scrollbar]:hidden md:max-w-[800px] mx-auto">
         {quickSearchOptions.map((option) => (
           <Button key={option.title} className="gap-2" variant="secondary" asChild>
             <Link href={`/barbershops?service=${option.title}`}>
@@ -86,7 +86,7 @@ const Home = async () => {
           alt="Agende nos melhores com FSW Barber"
           src="/banner-01.png"
           fill
-          className="rounded-xl object-fill"
+          className="rounded-xl object-fill md:max-w-96  mx-auto"
         />
       </div>
 
