@@ -2,7 +2,7 @@
 > * NextJS 14
 > * TailwindCSS
 > * Google Auth
-> * ShadCN
+> * ShadCN 2
 
 ## Como o Projeto está ficando(No Mobile)
 
