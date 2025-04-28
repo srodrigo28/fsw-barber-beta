@@ -3,6 +3,7 @@
 > * TailwindCSS
 > * Google Auth
 > * ShadCN 2
+> * ShadCN 3
 
 ## Como o Projeto está ficando(No Mobile)
 
