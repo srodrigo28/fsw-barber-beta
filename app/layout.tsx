@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google"
 import Footer from "./_components/footer";
 import AuthProvider from "./_providers/auth";
+import { Link } from "lucide-react";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,7 +26,7 @@ export default function RootLayout({
       >
         <AuthProvider>
           <div className="flex h-full flex-col">
-            <div className="flex-1">{children}</div>
+            <div className="flex-1">{children}</div> 
             <Footer />
           </div>
         </AuthProvider>
