@@ -4,6 +4,7 @@
 > * Google Auth
 > * ShadCN 2
 > * ShadCN 3
+> * Neon tech
 
 ## Como o Projeto está ficando(No Mobile)
 
