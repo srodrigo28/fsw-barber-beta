@@ -4,8 +4,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google"
 import Footer from "./_components/footer";
 import AuthProvider from "./_providers/auth";
-import { Link } from "lucide-react";
-import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] })
 
